@@ -82,3 +82,55 @@ else:
     print("for bitti.")
 for i, eleman in enumarate(liste):
     print(i+1,".eleman : ",eleman , sep="")
+def yazdir():
+    print("yazıyorum")
+
+yazdir()
+
+
+def topla(a,b)
+    return a+b
+print(topla(3,5))
+
+def topLA_ne_varsa_git(*a):
+    toplam=0
+    for deger in a:
+        toplam+=a
+    return toplam
+
+print(topLA_ne_varsa_git(3,5,9,15.2,36))
+
+
+def(*toplanacak,fazladan=0):
+    toplam=0
+    for deger in toplanacak:
+        toplam+=deger+fazladan
+    return toplam
+
+print(topLA_ne_varsa_git(3,5,9,15.2,36,fazladan=2),file="a.txt")
+
+
+def birim_islem(**birim):
+    print("Birimin tipi: ",type(birim))
+    print("Birim adı: "+birim["ad"])
+    print("Birim tipi: "+birim["tip"])
+    print("Birim yılı: ",birim["yil"])
+
+
+
+
+lambda_fonksiyonu=lambda a:a+10
+print(lambda_fonksiyonu(5))
+
+
+"""BUNUN KULLANILACAĞI BİR SINAV SORUSU!!!!!!!!!!"""
+
+def benimfonk(n):
+    return lambda a:a*n
+
+katini_al=benimfonk(2)
+print(katini_al(5))
+
+katini_al=benimfonk(5)
+print(katini_al(5))
+
